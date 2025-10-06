@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-int main() {
+int main(){
     setlocale(LC_CTYPE, "RUS");
 
     int Cost_Gloves = 56;
@@ -13,16 +13,17 @@ int main() {
 
     int x = Cost_Gloves + Cost_Briafcase + Cost_Tie;
     int result = D - x;
-    printf("Расчет сдачи после совершенных покупок\n");
+    printf("ГђГ Г±Г·ГҐГІ Г±Г¤Г Г·ГЁ ГЇГ®Г±Г«ГҐ Г±Г®ГўГҐГ°ГёГҐГ­Г­Г»Гµ ГЇГ®ГЄГіГЇГ®ГЄ\n");
     printf("--------------------------------------\n");
-    printf("Условия:\n");
-    printf("Стоимость перчаток %d\n", Cost_Gloves);
-    printf("Стоимость рюкзака %d\n", Cost_Briafcase);
-    printf("Стоимость галстука %d\n", Cost_Tie);
-    printf("Исходная сумма денег %d\n", D);
+    printf("Г“Г±Г«Г®ГўГЁГї:\n");
+    printf("Г‘ГІГ®ГЁГ¬Г®Г±ГІГј ГЇГҐГ°Г·Г ГІГ®ГЄ %d\n", Cost_Gloves);
+    printf("Г‘ГІГ®ГЁГ¬Г®Г±ГІГј Г°ГѕГЄГ§Г ГЄГ  %d\n", Cost_Briafcase);
+    printf("Г‘ГІГ®ГЁГ¬Г®Г±ГІГј ГЈГ Г«Г±ГІГіГЄГ  %d\n", Cost_Tie);
+    printf("Г€Г±ГµГ®Г¤Г­Г Гї Г±ГіГ¬Г¬Г  Г¤ГҐГ­ГҐГЈ %d\n", D);
     printf("--------------------------------------\n");
-    printf("Расчёт:\n");
-    printf("Сумма покупок: %d руб + %d руб + %d руб = %d руб\n", Cost_Gloves, Cost_Briafcase, Cost_Tie, x);
-    printf("Сдача: %d - %d = %d\n", D, x, result);
+    printf("ГђГ Г±Г·ВёГІ:\n");
+    printf("Г‘ГіГ¬Г¬Г  ГЇГ®ГЄГіГЇГ®ГЄ: %d Г°ГіГЎ + %d Г°ГіГЎ + %d Г°ГіГЎ = %d Г°ГіГЎ\n", Cost_Gloves, Cost_Briafcase, Cost_Tie, x);
+    printf("Г‘Г¤Г Г·Г : %d - %d = %d\n", D, x, result);
     return  0;
+
 }
